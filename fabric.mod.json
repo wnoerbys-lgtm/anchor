@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "anchormacro",
+  "version": "${version}",
+  "name": "Anchor Macro",
+  "description": "Tryk på en tast for at placere et respawn anchor og fylde det med glowstone. Kræver totem.",
+  "authors": ["67client"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dk.anchormacro.AnchorMacro"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
